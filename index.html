@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HOME </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel ="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <script>
+            $(document).ready(function(){
+                $("a").on('click', function(event){
+                    if (this.hash !==""){
+                    event.preventDefault();
+                    var hash=this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+
+                        window.location.hash = hash;
+                    });
+                }
+            })
+        })
+    </script>
+    
+    
+</head>
+<body>
+    
+    <div class="banner" id="mamamo">
+
+        <div class="navbar">
+            <div class="logo"> JONAXX STORIES WEBSITE </div>
+            <ul>
+                <li><a href="#home"> HOME </a></li>
+                <li><a href="#news"> NEWS </a></li>
+                <li><a href="#about"> ABOUT US </a></li>
+                <li><a href="#gallery"> GALLERY </a></li>
+                <li><a href="#testimony"> TESTIMONY </a></li>
+
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1> Welcome To Jonaxx Series</h1>
+            <p> For more videos subscribe to our channel. </p>
+
+            <div class="buttons">
+                <button type="button"><span></span>READ MORE</button>
+                <button type="button"><span></span>WATCH MORE</button>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <!--this code is for news page-->
+
+
+    <div class="blog-section" id="news">
+
+        <div class="section-content">
+
+            <div class="title">
+                <h2> JONAXX BOOK SERIES </h2>
+                <p> Written and Published by Jonahmae Panen Pacala </p>
+            </div>
+            <div class="cards">
+                <div class="card">
+
+                    <div class="image-section">
+                        <img src="img/b1.jpg">
+                    </div>
+
+                    <div class="article">
+                        <h4> COSTA LEONA SERIES </h4>
+                        
+                        <p>Costa Leona Series is a series of stories created by Filipino Wattpad Author, Jonah Mae Pacala, known by her pen name, Jonaxx,
+                            in 2016 starting with the first series, Scorching Love. Costa Leona Series is composed of two generations,
+                            the 3rd Generation (which spans from series #1 to #8) and 2nd Generation (which spans from #9 to #14). </br> </br>
+                            
+                            The series focuses on different stories revolving around the members of the Riego, Hidalgo and Mercadejas clan,
+                            all of whom resides in a fictional place called 'Costa Leona'.
+                            Each stories focuses on different problems but are related one way or another.</p>
+                    </div>
+
+                    <div class="blog-view">
+                        <a href="" class="button">Read More</a>
+                    </div>
+
+                    <div class="posted-date">
+                    <p>Date Released: December 24, 2012 </p>
+                </div>
+            </div>
+
+            <div class="card">
+
+                <div class="image-section">
+                    <img src="img/b7.jpg">
+                </div>
+
+                <div class="article">
+                    <h4> ALEGRIA GIRL SERIES </h4>
+                    <p> The Alegria Girl Series is the sister series to the Alegria Boys Series. 
+                        All the stories are interconnected, however, you may or may not in order. </br></br> 
+                        
+                        The girl from the series are from a fictional place called Alegria. </div>
+
+                <div class="blog-view">
+                    <a href="" class="button">Read More</a>
+                </div>
+
+                <div class="posted-date">
+                    <p>Date Released: February 27- June 5, 2016 </p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="image-section">
+                    <img src="img/b4.jpg_large">
+                </div>
+
+                <div class="article">
+                    <h4> AZUCARERA SERIES </h4>
+                    <p> The Azucarera Series consists of stand-alone but interconnected 
+                        stories. I strongly recommend this series in order. </br></br>
+
+                        Common to the series is the fictional place called Altagracia. This series
+                        will run only three stories. </p>
+                </div>
+
+                <div class="blog-view">
+                    <a href="" class="button">Read More</a>
+                </div>
+
+                <div class="posted-date">
+                    <p>Date Released: January 3, 2019 </p>
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--this code is for about page-->
+
+    <div class="about-section" id="about">
+        <div class="heading">
+            <h1> ABOUT US </h1>
+            <p> Jonaxx Stories is where you can read free stories from Jonaxx. </p>
+        
+
+        <div class="container">
+            <section class="about">
+                <div class="about-image">
+                    <img src="img/h2.jpg">
+                </div>
+
+                <div class="about-content">
+                    <h2> History of Jonaxx </h2>
+                    <p>Jonahmae Pacala, also known for her pseudonym, Jonaxx is currently 
+                        the most followed in Wattpad with 5 million followers despite being inactive. 
+                        She is also the first-ever filipino who was verified on Wattpad. 
+                        Fans, known as JSLs address her as the 'Unbothered Queen Jonaxx'. 
+                        Undeniably, Jonaxx is the most popular and bestselling Filipino romance 
+                        novelist today. Last 2013, she won as Writer of the Year. On 2014, 
+                        Jonaxx won Gawad Kasulatan and dubbed as the Summit Media Queen. She also bagged 
+                        the Best Writer in the Watty's Best of the Best Awards 2017.</p>
+
+                             <a href="#" class="read-more"> READ MORE </a>
+                </div>
+
+
+            </section>
+        </div>
+    </div>
+    </div>
+
+    <!---Gallery Page-->
+
+    <div class="gallery" id="gallery">
+    <div class="gallerybg">
+        <input type="radio" name="photos" id="check1" checked>
+        <input type="radio" name="photos" id="check2">
+        <input type="radio" name="photos" id="check3">
+        <input type="radio" name="photos" id="check4">
+
+        <div class="gallery-container">
+            <h1> JONAXX BOOK SERIES</h1>
+            <div class="top-content">
+                <h3>Book Gallery</h3>
+                <label for="check1">All Book Series</label>
+                <label for="check2">Costa Leona Series</label>
+                <label for="check3">Alegria Girl Series</label>
+                <label for="check4">Azucarera Series</label>
+            </div>
+
+            <div class="photo-gallery">
+
+                <div class="pic Events">
+                    <img src="img/cl1.jpg">
+                </div>
+
+                <div class="pic Bonding">
+                    <img src="img/cl5.jpg">
+                </div>
+
+                <div class="pic Outing">
+                    <img src="img/cl8.jpg">
+                </div>
+
+                <div class="pic Events">
+                    <img src="img/cl2.jpg">
+                </div>
+
+                <div class="pic Bonding">
+                    <img src="img/cl6.jpg">
+                </div>
+
+                <div class="pic Outing">
+                    <img src="img/cl9.jpg">
+                </div>
+
+                <div class="pic Events">
+                    <img src="img/cl3.jpg">
+                </div>
+
+                <div class="pic Bonding">
+                    <img src="img/cl7.jpg">
+                </div>
+
+                <div class="pic Outing">
+                    <img src="img/cl10.jpg">
+                </div>
+
+                <div class="pic Events">
+                    <img src="img/cl4.jpg">
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <!---Testimony Page-->
+
+    <div class="testimonials" id="testimony">
+        <div class="inner">
+            <h1> TESTIMONIALS </h1>
+
+        
+        <div class="border"></div>
+
+        <div class="row">
+
+            <div class="col">
+                <div class="testimonial">
+                    <img src="img/t3.jpg">
+                    <div class="name"> Blushing Geek </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>What I always love about this series is that it always ends up with a chapter solely taken from the guy’s POV. 
+                        This one gave us his thoughts on most of the scenes that were important in this story, but the part where he 
+                        realizes that he’s really ready to settle down even though he’s saying he’s not, I still think it’s lacking. 
+                        There were so many conflicts in this story, even though the Cinderella thing was kind of cliché, I still think 
+                        that this story was a very good one considering the cliché start. And for my rating, I am giving it 4 stars.
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="testimonial">
+                    <img src="img/t1.jpg">
+                    <div class="name"> Goodreads </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>I don’t like the idea of sacrificing in some romance stories. I really hate it that one of them needs to sacrifice for the 
+                        sake of the other, that’s why when Leil decided to break it up, I can’t help but get annoyed. Besides, in the end she decided to finally fight for their love. 
+                        This story is sreally something. But I’m bias, haha, so instead of giving this one a perfect 5-star, I am giving it 4.5 stars. </p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="testimonial">
+                    <img src="img/t4.jpg">
+                    <div class="name"> Wordpress </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>First thoughts of this story, it’s like I’m reading a Filipino pocketbook. I know her stories are not about high school love and the likes. 
+                        It’s actually the kind of story I love reading, the mature kind of love. The twist in the story is not big though. They express more in thoughts than 
+                        in talking, which for me as a reader is sort of biased.  All in all I was drawn to the story because of the moments of the hero and heroine but not to the 
+                        sstory itself. I’m not disappointed that the story didn’t reach my expectation because I’m not really expecting that high.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----footer---->
+
+<div class="footer-basic">
+    <footer>
+        <div class="social">
+            <a href="#"><i class="fa fa-facebook-official"></i> </a>
+            <a href="#"><i class="fa fa-instagram"></i> </a>
+            <a href="#"><i class="fa fa-twitter"></i> </a>
+            <a href="#"><i class="fa fa-youtube-play"></i> </a>
+        </div>
+
+        <p class="copyright">Created by Jonahmae Panen Pacala @ 2012</p>
+    </footer>
+</div>
+    
+
+<a href="#mamamo" id="myBtn" title="Go to top">TOP</a>
+
+
+<script>
+    let mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction(){
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+mybutton.style.display = "block";
+}else {
+    mybutton.style.display ="none";
+    }
+} 
+</script>
+
+</body>
+</html>
